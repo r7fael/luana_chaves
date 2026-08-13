@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luana Chaves</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="imgs/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-left">
+      <span class="logo">Luana Chaves Design</span>
+    </div>
+    <div class="header-right">
+      <div class="lang-toggle">
+        <button class="lang-btn" data-lang="pt">PT</button>
+        <span class="lang-sep">/</span>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <button class="menu-btn">Menu</button>
+    </div>
+  </header>
+
+  <!-- Menu Overlay -->
+  <nav class="menu-overlay">
+    <a href="index.html" class="menu-link">Home</a>
+    <a href="projetos.html" class="menu-link" data-pt="Projetos" data-en="Projects">Projetos</a>
+    <a href="contato.html" class="menu-link" data-pt="Contato" data-en="Contact">Contato</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <!-- GIF Background -->
+    <div class="hero-bg">
+      <img src="videos/direcaocriativa.gif" alt="" class="hero-gif active" data-project="creativedirection">
+      <img src="videos/designgrafico.gif" alt="" class="hero-gif"        data-project="graphicdesign">
+      <img src="videos/uxui.gif" alt="" class="hero-gif"        data-project="extraprojects">
+    </div>
+
+    <!-- Project List -->
+    <div class="project-list">
+      <a href="direcao-criativa/index.html" class="project-item active" data-project="creativedirection" data-pt="Direção Criativa" data-en="Creative Direction">Direção Criativa</a>
+      <a href="design-grafico/index.html" class="project-item" data-project="graphicdesign" data-pt="Design Gráfico" data-en="Graphic Design">Design Gráfico</a>
+      <a href="projetos-extras/index.html" class="project-item" data-project="extraprojects" data-pt="Projetos Extras" data-en="Extra Projects">Projetos Extras</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-left">
+        <h2 class="footer-name">Luana Chaves</h2>
+        <nav class="footer-nav">
+          <a href="index.html">HOME</a>
+          <a href="projetos.html" data-pt="PROJETOS" data-en="PROJECTS">PROJETOS</a>
+          <a href="contato.html" data-pt="CONTATO" data-en="CONTACT">CONTATO</a>
+        </nav>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/luanavchaves/" target="_blank">LinkedIn</a>
+        <a href="https://www.instagram.com/luaanachaves/" target="_blank">Instagram</a>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
