@@ -1,0 +1,49 @@
+[
+  {
+    "slug": "projetos-extras",
+    "groupName": null,
+    "projects": [
+      {
+        "slug": "cards",
+        "subtitle": "Cards",
+        "categoryMeta": { "pt": "Design Gráfico e Design de Produto", "en": "Graphic Design & Product Design" },
+        "service": { "pt": "Design de Produto", "en": "Product Design" },
+        "year": 2024,
+        "images": [
+          { "src": "imgs/projetos_extras/cards/1.jpeg", "width": "full", "alt": "Cards - 1" },
+          { "src": "imgs/projetos_extras/cards/2.jpeg", "width": "half", "alt": "Cards - 2" },
+          { "src": "imgs/projetos_extras/cards/3.jpeg", "width": "half", "alt": "Cards - 3" },
+          { "src": "imgs/projetos_extras/cards/4.jpeg", "width": "full", "alt": "Cards - 4" }
+        ],
+        "infoRows": [
+          { "label": { "pt": "Info", "en": "Info" }, "value": { "pt": "Criação de um baralho personalizado desenvolvido como presente, partindo de pesquisa de referências e construção de moodboard para definir o conceito e a estética do projeto. O processo envolveu curadoria e edição de fotografias, diagramação das cartas, desenvolvimento da caixa de apresentação e produção final para impressão.", "en": "Creation of a personalized card deck developed as a gift, starting from reference research and moodboard construction to define the project’s concept and aesthetics. The process involved photo curation and editing, card layout, gift box design, and final production for printing." } },
+          { "label": { "pt": "Cliente", "en": "Client" }, "value": { "pt": "Projeto Pessoal", "en": "Personal Project" } },
+          { "label": { "pt": "Serviços", "en": "Services" }, "value": { "pt": "Desenvolvimento de conceito criativo; pesquisa de referências; criação de moodboard; direção de arte; curadoria de imagens; edição de fotografias; design gráfico das cartas; diagramação; design de embalagem; preparação de arquivos para impressão.", "en": "Creative concept development; reference research; moodboard creation; art direction; image curation; photo editing; card graphic design; layout; packaging design; file preparation for printing." } },
+          { "label": { "pt": "Design Gráfico", "en": "Graphic Design" }, "value": "Luana Chaves" }
+        ]
+      },
+      {
+        "slug": "analog-pics",
+        "subtitle": "Analog Pics",
+        "categoryMeta": { "pt": "Design Gráfico", "en": "Graphic Design" },
+        "service": { "pt": "Album Visual Autoral", "en": "Authorial Visual Album" },
+        "year": 2026,
+        "images": [
+          { "src": "imgs/projetos_extras/analog_pics/1.png", "width": "full", "alt": "Analog Pics - 1" },
+          { "src": "imgs/projetos_extras/analog_pics/2.png", "width": "half", "alt": "Analog Pics - 2" },
+          { "src": "imgs/projetos_extras/analog_pics/3.png", "width": "half", "alt": "Analog Pics - 3" },
+          { "src": "imgs/projetos_extras/analog_pics/4.png", "width": "half", "alt": "Analog Pics - 4" },
+          { "src": "imgs/projetos_extras/analog_pics/5.png", "width": "half", "alt": "Analog Pics - 5" },
+          { "src": "imgs/projetos_extras/analog_pics/6.png", "width": "full", "alt": "Analog Pics - 6" }
+        ],
+        "infoRows": [
+          { "label": { "pt": "Info", "en": "Info" }, "value": { "pt": "Desenvolvimento de um álbum visual autoral a partir de fotografias analógicas capturadas durante viagens por diferentes lugares do mundo. O projeto reúne a edição das fotografias e a criação de um design editorial com textos e diagramações experimentais, explorando a estética de um álbum de memórias e transformando os registros da viagem em uma narrativa visual.", "en": "Development of an authorial visual album from analog photographs captured during travels across different parts of the world. The project combines photo editing with the creation of an editorial design featuring experimental texts and layouts, exploring the aesthetics of a memory album and transforming travel records into a visual narrative." } },
+          { "label": { "pt": "Cliente", "en": "Client" }, "value": { "pt": "Projeto Pessoal", "en": "Personal Project" } },
+          { "label": { "pt": "Serviços", "en": "Services" }, "value": { "pt": "Direção de arte; fotografia analógica; curadoria de imagens; edição de fotografias; design editorial; diagramação; desenvolvimento de narrativa visual; tratamento e organização de conteúdo visual.", "en": "Art direction; analog photography; image curation; photo editing; editorial design; layout; visual narrative development; visual content treatment and organization." } },
+          { "label": { "pt": "Fotografia", "en": "Photography" }, "value": "Luana Chaves" },
+          { "label": { "pt": "Design Gráfico", "en": "Graphic Design" }, "value": "Luana Chaves" }
+        ]
+      }
+    ]
+  }
+]

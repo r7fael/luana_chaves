@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "direcao-criativa",
+    "groupName": null,
+    "projects": [
+      {
+        "slug": "luiza-eduarda-jewelry",
+        "subtitle": "Luiza Eduarda Jewelry",
+        "service": { "pt": "Fotografia & Conceito Visual", "en": "Photography & Visual Concept" },
+        "year": 2025,
+        "images": [
+          { "src": "imgs/direc_criativa/projeto1/gifs/gif_1.gif", "width": "full", "alt": "Luiza Eduarda Jewelry - GIF 1" },
+          { "src": "imgs/direc_criativa/projeto1/1.jpeg", "width": "half", "alt": "Luiza Eduarda Jewelry - Foto 1" },
+          { "src": "imgs/direc_criativa/projeto1/2.jpeg", "width": "half", "alt": "Luiza Eduarda Jewelry - Foto 2" },
+          { "src": "imgs/direc_criativa/projeto1/3.jpeg", "width": "full", "alt": "Luiza Eduarda Jewelry - Foto 3" },
+          { "src": "imgs/direc_criativa/projeto1/4.jpeg", "width": "half", "alt": "Luiza Eduarda Jewelry - Foto 4" },
+          { "src": "imgs/direc_criativa/projeto1/gifs/gif_2.gif", "width": "half", "alt": "Luiza Eduarda Jewelry - GIF 2" }
+        ],
+        "infoRows": [
+          { "label": { "pt": "Info", "en": "Info" }, "value": { "pt": "Desenvolvimento da direção criativa da campanha Season 2 da marca de joias Luiza Eduarda Jewelry, de Brasília–DF. A proposta foi criar uma campanha com foco no produto, com definição de moodboard e direcionamento visual para modelo, styling, cenário, cores e estilo fotográfico, garantindo unidade estética para o segundo lançamento da marca.", "en": "Development of the creative direction for the Season 2 campaign of Brasília-based jewelry brand Luiza Eduarda Jewelry. The goal was to create a product-focused campaign, including moodboard definition and visual direction for the model, styling, setting, colors and photographic style, ensuring aesthetic unity for the brand’s second launch." } },
+          { "label": { "pt": "Cliente", "en": "Client" }, "value": "Luiza Eduarda Jewelry" },
+          { "label": { "pt": "Serviços", "en": "Services" }, "value": { "pt": "Direção criativa; direção de arte; desenvolvimento de moodboard; definição de conceito visual da campanha; curadoria de modelo; direcionamento de styling; definição de cenário; definição de paleta de cores; direcionamento de estilo fotográfico.", "en": "Creative direction; art direction; moodboard development; campaign visual concept definition; model curation; styling direction; setting definition; color palette definition; photographic style direction." } },
+          { "label": { "pt": "Fotografia e Vídeo", "en": "Photography & Video" }, "value": "Caio Faz | @caiofazz" },
+          { "label": { "pt": "Direção Criativa", "en": "Creative Direction" }, "value": ["Mariana Oliveira | @mrianaoliveira", "Luana Chaves | @luaanachaves"] },
+          { "label": { "pt": "Modelo", "en": "Model" }, "value": "Lorena Bispo | @lorenabispo__" }
+        ]
+      },
+      {
+        "slug": "passos-que-se-encontram",
+        "subtitle": "Passos que se Encontram",
+        "service": { "pt": "Conceito Criativo de Campanha", "en": "Creative Campaign Concept" },
+        "year": 2025,
+        "images": [
+          { "src": "imgs/direc_criativa/projeto2/gifs/1.gif", "width": "full", "alt": "Passos que se Encontram - GIF 1" },
+          { "src": "imgs/direc_criativa/projeto2/1.jpeg", "width": "half", "alt": "Passos que se Encontram - Foto 1" },
+          { "src": "imgs/direc_criativa/projeto2/2.jpeg", "width": "half", "alt": "Passos que se Encontram - Foto 2" },
+          { "src": "imgs/direc_criativa/projeto2/3.jpeg", "width": "full", "alt": "Passos que se Encontram - Foto 3" },
+          { "src": "imgs/direc_criativa/projeto2/gifs/2.gif", "width": "full", "alt": "Passos que se Encontram - GIF 2" }
+        ],
+        "infoRows": [
+          { "label": { "pt": "Info", "en": "Info" }, "value": { "pt": "Desenvolvimento da direção criativa da campanha \"Passos que se Encontram\" para a marca de sapatos de luxo Piazza. Criada para o Dia dos Namorados, a campanha uniu o lançamento de novos produtos a uma narrativa visual inspirada na estética italiana clássica, explorando referências antigas da Itália para construir uma atmosfera romântica e atemporal alinhada ao posicionamento da marca.", "en": "Development of the creative direction for the \"Passos que se Encontram\" campaign for luxury shoe brand Piazza. Created for Valentine’s Day, the campaign combined the launch of new products with a visual narrative inspired by classic Italian aesthetics, drawing on vintage Italian references to build a romantic, timeless atmosphere aligned with the brand’s positioning." } },
+          { "label": { "pt": "Cliente", "en": "Client" }, "value": "Piazza" },
+          { "label": { "pt": "Serviços", "en": "Services" }, "value": { "pt": "Direção criativa; direção de arte; desenvolvimento de conceito da campanha; desenvolvimento de moodboard; planejamento visual; produção fotográfica em estúdio; produção de vídeo; direção de cena; edição de fotos; edição de vídeo.", "en": "Creative direction; art direction; campaign concept development; moodboard development; visual planning; studio photography production; video production; scene direction; photo editing; video editing." } },
+          { "label": { "pt": "Fotografia e Vídeo", "en": "Photography & Video" }, "value": "Caio Faz | @caiofazz" },
+          { "label": { "pt": "Direção Criativa", "en": "Creative Direction" }, "value": ["Mariana Oliveira | @mrianaoliveira", "Gabriel Gomes | @gomes.tt", "Luana Chaves | @luaanachaves"] },
+          { "label": { "pt": "Modelo", "en": "Model" }, "value": ["Rebeka Guerra", "Damião"] }
+        ]
+      },
+      {
+        "slug": "bp-jeans",
+        "subtitle": "BP Jeans",
+        "service": { "pt": "Conceito Criativo de Campanha", "en": "Creative Campaign Concept" },
+        "year": 2025,
+        "images": [
+          { "src": "imgs/direc_criativa/projeto3/gifs/BPJeans-ezgif.com-video-to-gif-converter.gif", "width": "full", "alt": "BP Jeans - GIF" },
+          { "src": "imgs/direc_criativa/projeto3/1.jpeg", "width": "half", "alt": "BP Jeans - Foto 1" },
+          { "src": "imgs/direc_criativa/projeto3/2.jpeg", "width": "half", "alt": "BP Jeans - Foto 2" }
+        ],
+        "infoRows": [
+          { "label": { "pt": "Info", "en": "Info" }, "value": { "pt": "Desenvolvimento da direção criativa da campanha \"BP Jeans\" para a marca de roupas de alfaiataria Bruna Paz Brand. Lançamento do primeiro jeans da Bruna Paz Brand, com criação do conceito visual e direcionamento estético para apresentar o novo produto da marca e fortalecer sua identidade no lançamento.", "en": "Development of the creative direction for the \"BP Jeans\" campaign for tailoring brand Bruna Paz Brand. Launch of the first jeans by Bruna Paz Brand, including the creation of the visual concept and aesthetic direction to present the new product and strengthen the brand’s identity at launch." } },
+          { "label": { "pt": "Cliente", "en": "Client" }, "value": "Bruna Paz Brand" },
+          { "label": { "pt": "Serviços", "en": "Services" }, "value": { "pt": "Direção criativa; direção de arte; desenvolvimento de conceito da campanha; planejamento visual; produção fotográfica em estúdio; produção de vídeo; direção de cena; edição de fotos; edição de vídeo.", "en": "Creative direction; art direction; campaign concept development; visual planning; studio photography production; video production; scene direction; photo editing; video editing." } },
+          { "label": { "pt": "Fotografia e Vídeo", "en": "Photography & Video" }, "value": "Caio Faz | @caiofazz" },
+          { "label": { "pt": "Direção Criativa", "en": "Creative Direction" }, "value": ["Mariana Oliveira com assistência de Luana Chaves | @mrianaoliveira | @luaanachaves", "Tereza Rio | @terezarioo", "Lucas Becker | @lvcasbecker", "Bruna Paz | @brunapazlemos"] },
+          { "label": { "pt": "Design e Branding", "en": "Design & Branding" }, "value": "Lucas Becker | @lvcasbecker" }
+        ]
+      },
+      {
+        "slug": "bessie-sao-joao",
+        "subtitle": "Bessie - São João",
+        "listLabel": "BESSIE — SÃO JOÃO",
+        "service": { "pt": "Criação de Conceito para Marca", "en": "Brand Concept Creation" },
+        "year": 2025,
+        "images": [
+          { "src": "imgs/direc_criativa/projeto4/gifs/1.gif", "width": "full", "alt": "Bessie São João - GIF" },
+          { "src": "imgs/direc_criativa/projeto4/1.jpeg", "width": "half", "alt": "Bessie São João - Foto 1" },
+          { "src": "imgs/direc_criativa/projeto4/2.jpeg", "width": "half", "alt": "Bessie São João - Foto 2" }
+        ],
+        "infoRows": [
+          { "label": { "pt": "Info", "en": "Info" }, "value": { "pt": "Desenvolvimento de vídeo para redes sociais da Bessie, um salão de beleza express que valoriza a otimização do tempo do cliente. A campanha foi criada para o período de São João, integrando a proposta de agilidade da marca com elementos da cultura nordestina. No vídeo, a modelo aparece realizando diferentes serviços de beleza simultaneamente, caracterizada com referências juninas e interagindo com elementos típicos da festividade, como a maçã do amor, reforçando de forma criativa o conceito express da marca.", "en": "Development of a social media video for Bessie, an express beauty salon that values client time optimization. The campaign was created for the São João festival period, integrating the brand’s agility concept with elements of Northeastern Brazilian culture. In the video, the model appears performing different beauty services simultaneously, dressed in Festa Junina attire and interacting with festivity elements such as the candy apple, creatively reinforcing the brand’s express concept." } },
+          { "label": { "pt": "Cliente", "en": "Client" }, "value": "Bessie Beauty Club" },
+          { "label": { "pt": "Serviços", "en": "Services" }, "value": { "pt": "Direção criativa; desenvolvimento de conceito da campanha; desenvolvimento de roteiro; direção de arte; produção de vídeo; direção de cena; edição de vídeo; adaptação de conteúdo para redes sociais.", "en": "Creative direction; campaign concept development; script development; art direction; video production; scene direction; video editing; social media content adaptation." } },
+          { "label": { "pt": "Fotografia e Vídeo", "en": "Photography & Video" }, "value": "Caio Faz | @caiofazz" },
+          { "label": { "pt": "Direção Criativa", "en": "Creative Direction" }, "value": "Luana Chaves | @luaanachaves" },
+          { "label": { "pt": "Styling", "en": "Styling" }, "value": "Fox Brasil Recife | @foxbrasilrecicfe" }
+        ]
+      }
+    ]
+  }
+]

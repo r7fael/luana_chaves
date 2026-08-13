@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="{{ root }}style.css">
+  <link rel="icon" href="{{ root }}imgs/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-left">
+      {% if isHome %}
+      <span class="logo">Luana Chaves Design</span>
+      {% else %}
+      <a href="{{ root }}index.html" class="logo">Luana Chaves Design</a>
+      {% endif %}
+    </div>
+    <div class="header-right">
+      <div class="lang-toggle">
+        <button class="lang-btn" data-lang="pt">PT</button>
+        <span class="lang-sep">/</span>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <button class="menu-btn">Menu</button>
+    </div>
+  </header>
+
+  <!-- Menu Overlay -->
+  <nav class="menu-overlay">
+    <a href="{{ root }}index.html" class="menu-link">Home</a>
+    <a href="{{ root }}projetos.html" class="menu-link" data-pt="Projetos" data-en="Projects">Projetos</a>
+    <a href="{{ root }}contato.html" class="menu-link" data-pt="Contato" data-en="Contact">Contato</a>
+  </nav>
+
+  {{ content | safe }}
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-left">
+        <h2 class="footer-name">Luana Chaves</h2>
+        <nav class="footer-nav">
+          <a href="{{ root }}index.html">HOME</a>
+          <a href="{{ root }}projetos.html" data-pt="PROJETOS" data-en="PROJECTS">PROJETOS</a>
+          <a href="{{ root }}contato.html" data-pt="CONTATO" data-en="CONTACT">CONTATO</a>
+        </nav>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/luanavchaves/" target="_blank">LinkedIn</a>
+        <a href="https://www.instagram.com/luaanachaves/" target="_blank">Instagram</a>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="{{ root }}script.js"></script>
+</body>
+</html>

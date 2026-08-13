@@ -1,0 +1,56 @@
+{
+  "repo": "r7fael/luana_chaves",
+  "branch": "main",
+  "dataDir": "src/_data/site",
+  "media": { "mode": "ftp", "basePath": "imgs" },
+  "collections": [
+    {
+      "id": "direcao-criativa",
+      "label": { "pt": "DIREÇÃO CRIATIVA", "en": "CREATIVE DIRECTION" },
+      "titleLabel": "Direção Criativa",
+      "file": "direcao-criativa.json",
+      "navigation": "chain",
+      "groupBy": "groupName",
+      "fields": [
+        { "key": "groupName", "label": "Nome do grupo/projeto (lista da categoria)", "type": "bilingual-text" },
+        { "key": "subtitle", "label": "Cliente / nome exibido", "type": "text" },
+        { "key": "service", "label": "Serviço", "type": "bilingual-text" },
+        { "key": "year", "label": "Ano", "type": "number" },
+        { "key": "images", "label": "Galeria", "type": "image-list" },
+        { "key": "infoRows", "label": "Linhas de informação (Info, Cliente, Serviços, créditos...)", "type": "row-list" }
+      ]
+    },
+    {
+      "id": "design-grafico",
+      "label": { "pt": "DESIGN GRÁFICO", "en": "GRAPHIC DESIGN" },
+      "titleLabel": "Design Gráfico",
+      "file": "design-grafico.json",
+      "navigation": "chain",
+      "groupBy": "groupName",
+      "fields": [
+        { "key": "groupName", "label": "Nome do grupo (ex: Identidade Visual, Social Media)", "type": "bilingual-text" },
+        { "key": "subtitle", "label": "Cliente / nome exibido", "type": "text" },
+        { "key": "service", "label": "Serviço", "type": "bilingual-text" },
+        { "key": "year", "label": "Ano", "type": "number" },
+        { "key": "images", "label": "Galeria", "type": "image-list" },
+        { "key": "infoRows", "label": "Linhas de informação (Info, Cliente, Serviços, créditos...)", "type": "row-list" }
+      ]
+    },
+    {
+      "id": "projetos-extras",
+      "label": { "pt": "PROJETOS EXTRAS", "en": "EXTRA PROJECTS" },
+      "titleLabel": "Projetos Extras",
+      "file": "projetos-extras.json",
+      "navigation": "chain",
+      "groupBy": "groupName",
+      "fields": [
+        { "key": "groupName", "label": "Nome do grupo/projeto (lista da categoria)", "type": "bilingual-text" },
+        { "key": "subtitle", "label": "Cliente / nome exibido", "type": "text" },
+        { "key": "service", "label": "Serviço", "type": "bilingual-text" },
+        { "key": "year", "label": "Ano", "type": "number" },
+        { "key": "images", "label": "Galeria", "type": "image-list" },
+        { "key": "infoRows", "label": "Linhas de informação (Info, Cliente, Serviços, créditos...)", "type": "row-list" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+---
+pagination:
+  data: enriched.categories
+  size: 1
+  alias: category
+permalink: "{{ category.slug }}/index.html"
+layout: layouts/base.njk
+eleventyComputed:
+  title: "{{ category.titleLabel }} - Luana Chaves"
+root: "../"
+---
+<!-- Category Title -->
+<section class="category-hero">
+  <h1 class="category-title" data-pt="{{ category.label.pt }}" data-en="{{ category.label.en }}">{{ category.label.pt }}</h1>
+</section>
+
+<!-- Subcategory/Project Listing -->
+<section class="category-list">
+  {% for group in category.groups %}
+  <a href="{{ group.href }}" class="category-list-item" data-preview="../{{ group.previewImage }}">
+    <span class="category-list-name"{% if group.listLabel.pt != group.listLabel.en %} data-pt="{{ group.listLabel.pt }}" data-en="{{ group.listLabel.en }}"{% endif %}>{{ group.listLabel.pt }}</span>
+  </a>
+  {% endfor %}
+</section>
+
+<!-- Hover Preview Image -->
+<div class="category-preview" id="categoryPreview">
+  <img src="" alt="Preview" id="categoryPreviewImg">
+</div>

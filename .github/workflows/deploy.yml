@@ -1,0 +1,41 @@
+name: Build e publicar site na Hostinger
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "admin/**"
+      - "*.md"
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Instalar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Build Eleventy
+        run: npm run build
+
+      # imgs/ e videos/ NÃO entram no deploy: essas pastas são geridas
+      # diretamente pelo painel via FTP (ver plano de arquitetura). Sincronizar
+      # esses caminhos aqui poderia sobrescrever ou apagar mídia enviada pelo painel.
+      - name: Deploy via FTP para a Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./_site/
+          server-dir: ./
+          exclude: |
+            **/imgs/**
+            **/videos/**

@@ -1,0 +1,162 @@
+[
+  {
+    "slug": "design-editorial",
+    "groupName": { "pt": "DESIGN EDITORIAL", "en": "EDITORIAL DESIGN" },
+    "listLabel": "DESIGN EDITORIAL",
+    "projects": [
+      {
+        "slug": "revista-value",
+        "subtitle": "Revista Value",
+        "service": { "pt": "Design Editorial", "en": "Editorial Design" },
+        "year": 2024,
+        "images": [
+          { "src": "imgs/design_grafico/design_editorial/projeto1/1.gif", "width": "full", "alt": "Revista Value - GIF" }
+        ],
+        "infoRows": [
+          { "label": { "pt": "Info", "en": "Info" }, "value": { "pt": "Desenvolvimento de uma Revista para um projeto acadêmico. A \"Revista Value\" trata sobre negócios no Design, assim como entrevistas e histórias reais.", "en": "Development of a magazine for an academic project. \"Revista Value\" covers design business topics, as well as interviews and real-life stories." } },
+          { "label": { "pt": "Cliente", "en": "Client" }, "value": "Cesar School" },
+          { "label": { "pt": "Serviços", "en": "Services" }, "value": { "pt": "Direção editorial; design editorial; diagramação; desenvolvimento de conceito gráfico; hierarquia tipográfica; criação de grid editorial; tratamento e curadoria de imagens; preparação de arquivos para impressão.", "en": "Editorial direction; editorial design; layout; graphic concept development; typographic hierarchy; editorial grid creation; image treatment and curation; file preparation for printing." } },
+          { "label": { "pt": "Design Gráfico", "en": "Graphic Design" }, "value": ["Luana Chaves", "Julia Castelão"] },
+          { "label": { "pt": "Pesquisas", "en": "Research" }, "value": ["Lucas de Gusmão", "Maria Luiza Paiva", "Tereza Rio", "Luana Vieira"] }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "identidade-visual",
+    "groupName": { "pt": "IDENTIDADE VISUAL", "en": "VISUAL IDENTITY" },
+    "projects": [
+      {
+        "slug": "cecilia-andrade",
+        "subtitle": "Cecilia Andrade",
+        "service": { "pt": "Identidade Visual", "en": "Visual Identity" },
+        "year": 2025,
+        "images": [
+          { "src": "imgs/design_grafico/identidade_visual/projeto 1/1.png", "width": "full", "alt": "Cecilia Andrade - 1" },
+          { "src": "imgs/design_grafico/identidade_visual/projeto 1/2.png", "width": "half", "alt": "Cecilia Andrade - 2" },
+          { "src": "imgs/design_grafico/identidade_visual/projeto 1/3.png", "width": "half", "alt": "Cecilia Andrade - 3" },
+          { "src": "imgs/design_grafico/identidade_visual/projeto 1/4.png", "width": "full", "alt": "Cecilia Andrade - 4" },
+          { "src": "imgs/design_grafico/identidade_visual/projeto 1/5.png", "width": "half", "alt": "Cecilia Andrade - 5" },
+          { "src": "imgs/design_grafico/identidade_visual/projeto 1/6.png", "width": "half", "alt": "Cecilia Andrade - 6" },
+          { "src": "imgs/design_grafico/identidade_visual/projeto 1/7.png", "width": "full", "alt": "Cecilia Andrade - 7" }
+        ],
+        "infoRows": [
+          { "label": { "pt": "Info", "en": "Info" }, "value": { "pt": "Desenvolvimento de uma identidade visual para uma Cirurgiã Dentista, Cecilia Andrade, que atende crianças e adultos.", "en": "Development of a visual identity for dentist Cecilia Andrade, who serves both children and adults." } },
+          { "label": { "pt": "Cliente", "en": "Client" }, "value": "Cecilia Andrade" },
+          { "label": { "pt": "Serviços", "en": "Services" }, "value": { "pt": "Desenvolvimento de identidade visual; definição de conceito gráfico; construção de sistema visual; definição de paleta de cores; definição tipográfica; desenvolvimento de elementos gráficos de apoio; padronização de aplicações da marca; design e diagramação do manual de marca.", "en": "Visual identity development; graphic concept definition; visual system construction; color palette definition; typographic definition; development of graphic support elements; brand application standardization; design and layout of the brand manual." } },
+          { "label": { "pt": "Design Gráfico", "en": "Graphic Design" }, "value": "Luana Chaves" }
+        ]
+      },
+      {
+        "slug": "roberta-maia",
+        "subtitle": "Roberta Maia",
+        "service": { "pt": "Identidade Visual", "en": "Visual Identity" },
+        "year": 2025,
+        "images": [
+          { "src": "imgs/design_grafico/identidade_visual/projeto 2/1.png", "width": "full", "alt": "Roberta Maia - 1" },
+          { "src": "imgs/design_grafico/identidade_visual/projeto 2/2.png", "width": "half", "alt": "Roberta Maia - 2" },
+          { "src": "imgs/design_grafico/identidade_visual/projeto 2/3.png", "width": "half", "alt": "Roberta Maia - 3" },
+          { "src": "imgs/design_grafico/identidade_visual/projeto 2/4.png", "width": "half", "alt": "Roberta Maia - 4" },
+          { "src": "imgs/design_grafico/identidade_visual/projeto 2/5.png", "width": "half", "alt": "Roberta Maia - 5" }
+        ],
+        "infoRows": [
+          { "label": { "pt": "Info", "en": "Info" }, "value": { "pt": "Desenvolvimento de uma identidade visual para uma psicopedagoga, Roberta Maia, focada em desenvolvimento infantil.", "en": "Development of a visual identity for educational psychologist Roberta Maia, specialized in child development." } },
+          { "label": { "pt": "Cliente", "en": "Client" }, "value": "Roberta Maia" },
+          { "label": { "pt": "Serviços", "en": "Services" }, "value": { "pt": "Desenvolvimento de identidade visual; definição de conceito gráfico; construção de sistema visual; definição de paleta de cores; definição tipográfica; desenvolvimento de elementos gráficos de apoio; padronização de aplicações da marca; design e diagramação do manual de marca.", "en": "Visual identity development; graphic concept definition; visual system construction; color palette definition; typographic definition; development of graphic support elements; brand application standardization; design and layout of the brand manual." } },
+          { "label": { "pt": "Design Gráfico", "en": "Graphic Design" }, "value": "Luana Chaves" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "social-media",
+    "groupName": { "pt": "SOCIAL MEDIA", "en": "SOCIAL MEDIA" },
+    "previewImage": "imgs/design_grafico/social_media/projeto 2/gifs/1.gif",
+    "projects": [
+      {
+        "slug": "mob",
+        "subtitle": "MOB",
+        "service": { "pt": "Social Media", "en": "Social Media" },
+        "year": 2025,
+        "images": [
+          { "src": "imgs/design_grafico/social_media/projeto 1/1.png", "width": "full", "alt": "MOB - 1" },
+          { "src": "imgs/design_grafico/social_media/projeto 1/2.png", "width": "half", "alt": "MOB - 2" },
+          { "src": "imgs/design_grafico/social_media/projeto 1/3.png", "width": "half", "alt": "MOB - 3" },
+          { "src": "imgs/design_grafico/social_media/projeto 1/4.png", "width": "full", "alt": "MOB - 4" },
+          { "src": "imgs/design_grafico/social_media/projeto 1/5.png", "width": "half", "alt": "MOB - 5" },
+          { "src": "imgs/design_grafico/social_media/projeto 1/6.png", "width": "half", "alt": "MOB - 6" },
+          { "src": "imgs/design_grafico/social_media/projeto 1/7.png", "width": "half", "alt": "MOB - 7" },
+          { "src": "imgs/design_grafico/social_media/projeto 1/8.png", "width": "half", "alt": "MOB - 8" }
+        ],
+        "infoRows": [
+          { "label": { "pt": "Info", "en": "Info" }, "value": { "pt": "Desenvolvimento de peças gráficas para rede social da agência \"MOB\".", "en": "Development of graphic assets for the social media of agency \"MOB\"." } },
+          { "label": { "pt": "Cliente", "en": "Client" }, "value": "MOB" },
+          { "label": { "pt": "Serviços", "en": "Services" }, "value": { "pt": "Criação de peças gráficas para redes sociais; desenvolvimento de conceito visual; adaptação de identidade visual para mídias digitais; design de posts e carrosséis; design de stories; criação de templates; tratamento de imagens; diagramação de conteúdo para redes sociais.", "en": "Creation of graphic assets for social media; visual concept development; visual identity adaptation for digital media; post and carousel design; story design; template creation; image treatment; social media content layout." } },
+          { "label": { "pt": "Design Gráfico", "en": "Graphic Design" }, "value": ["Luana Chaves", "Caio Faz", "Mariana Oliveira"] }
+        ]
+      },
+      {
+        "slug": "piazza",
+        "subtitle": "Piazza",
+        "service": { "pt": "Social Media", "en": "Social Media" },
+        "year": 2025,
+        "images": [
+          { "src": "imgs/design_grafico/social_media/projeto 2/gifs/1.gif", "width": "full", "alt": "Piazza - GIF" },
+          { "src": "imgs/design_grafico/social_media/projeto 2/1.png", "width": "half", "alt": "Piazza - 1" },
+          { "src": "imgs/design_grafico/social_media/projeto 2/2.png", "width": "half", "alt": "Piazza - 2" },
+          { "src": "imgs/design_grafico/social_media/projeto 2/3.png", "width": "half", "alt": "Piazza - 3" },
+          { "src": "imgs/design_grafico/social_media/projeto 2/4.png", "width": "half", "alt": "Piazza - 4" }
+        ],
+        "infoRows": [
+          { "label": { "pt": "Info", "en": "Info" }, "value": { "pt": "Desenvolvimento de peças gráficas em comunicação de luxo para rede social da marca \"PIAZZA\".", "en": "Development of luxury communication graphic assets for the social media of the brand \"PIAZZA\"." } },
+          { "label": { "pt": "Cliente", "en": "Client" }, "value": "Piazza" },
+          { "label": { "pt": "Serviços", "en": "Services" }, "value": { "pt": "Criação de peças gráficas para redes sociais; desenvolvimento de conceito visual; adaptação de identidade visual para mídias digitais; design de posts e carrosséis; design de stories; criação de templates; tratamento de imagens; diagramação de conteúdo para redes sociais.", "en": "Creation of graphic assets for social media; visual concept development; visual identity adaptation for digital media; post and carousel design; story design; template creation; image treatment; social media content layout." } },
+          { "label": { "pt": "Design Gráfico", "en": "Graphic Design" }, "value": "Luana Chaves" }
+        ]
+      },
+      {
+        "slug": "wmn",
+        "subtitle": "WMN",
+        "service": { "pt": "Social Media", "en": "Social Media" },
+        "year": 2025,
+        "images": [
+          { "src": "imgs/design_grafico/social_media/projeto 3/1.png", "width": "full", "alt": "WMN - 1" },
+          { "src": "imgs/design_grafico/social_media/projeto 3/2.png", "width": "half", "alt": "WMN - 2" },
+          { "src": "imgs/design_grafico/social_media/projeto 3/3.png", "width": "half", "alt": "WMN - 3" },
+          { "src": "imgs/design_grafico/social_media/projeto 3/4.jpeg", "width": "full", "alt": "WMN - 4" }
+        ],
+        "infoRows": [
+          { "label": { "pt": "Info", "en": "Info" }, "value": { "pt": "Desenvolvimento de peças gráficas em comunicação de luxo para rede social da marca \"WMN\".", "en": "Development of luxury communication graphic assets for the social media of the brand \"WMN\"." } },
+          { "label": { "pt": "Cliente", "en": "Client" }, "value": "WMN" },
+          { "label": { "pt": "Serviços", "en": "Services" }, "value": { "pt": "Criação de peças gráficas para redes sociais; desenvolvimento de conceito visual; adaptação de identidade visual para mídias digitais; design de posts e carrosséis; design de stories; criação de templates; tratamento de imagens; diagramação de conteúdo para redes sociais.", "en": "Creation of graphic assets for social media; visual concept development; visual identity adaptation for digital media; post and carousel design; story design; template creation; image treatment; social media content layout." } },
+          { "label": { "pt": "Design Gráfico", "en": "Graphic Design" }, "value": "Luana Chaves" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "materiais-de-campanha",
+    "groupName": { "pt": "MATERIAIS DE CAMPANHA", "en": "CAMPAIGN MATERIALS" },
+    "projects": [
+      {
+        "slug": "piazza-campanha",
+        "subtitle": "Piazza",
+        "titleOverride": "Piazza - Materiais de Campanha",
+        "service": { "pt": "Materiais para Campanhas", "en": "Campaign Materials" },
+        "year": 2025,
+        "images": [
+          { "src": "imgs/design_grafico/materiais_campanha/projeto 1/gifs/1.gif", "width": "full", "alt": "Piazza Campanha - GIF" },
+          { "src": "imgs/design_grafico/materiais_campanha/projeto 1/1.png", "width": "half", "alt": "Piazza Campanha - 1" },
+          { "src": "imgs/design_grafico/materiais_campanha/projeto 1/2.png", "width": "half", "alt": "Piazza Campanha - 2" },
+          { "src": "imgs/design_grafico/materiais_campanha/projeto 1/3.png", "width": "full", "alt": "Piazza Campanha - 3" }
+        ],
+        "infoRows": [
+          { "label": { "pt": "Info", "en": "Info" }, "value": { "pt": "Desenvolvimento de peças gráficas para impressão para comunicação da campanha \"Estate 26\", a coleção de verão da Piazza. A comunicação conta com o acompanhamento da marca no Torino Fashion Week, que acontece na cidade de Turin, na Itália.", "en": "Development of print graphic assets for the \"Estate 26\" campaign, Piazza’s summer collection. The campaign includes the brand’s presence at Torino Fashion Week, held in Turin, Italy." } },
+          { "label": { "pt": "Cliente", "en": "Client" }, "value": "Piazza" },
+          { "label": { "pt": "Serviços", "en": "Services" }, "value": { "pt": "Desenvolvimento de conceito criativo; criação de moodboard; direção de arte; design gráfico de materiais impressos; desenvolvimento de peças gráficas promocionais; preparação de arquivos para impressão; adaptação visual para campanha de coleção de verão.", "en": "Creative concept development; moodboard creation; art direction; graphic design of printed materials; development of promotional graphic assets; file preparation for printing; visual adaptation for summer collection campaign." } },
+          { "label": { "pt": "Design Gráfico", "en": "Graphic Design" }, "value": "Luana Chaves" }
+        ]
+      }
+    ]
+  }
+]

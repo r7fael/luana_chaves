@@ -1,0 +1,80 @@
+---
+pagination:
+  data: enriched.allProjects
+  size: 1
+  alias: project
+permalink: "{{ project.categorySlug }}/{{ project.slug }}.html"
+layout: layouts/base.njk
+eleventyComputed:
+  title: "{{ project.titleOverride or project.subtitle }} - Luana Chaves"
+root: "../"
+---
+{% set titleObj = project.groupName if project.groupName else project.categoryLabel %}
+
+<!-- Hero -->
+<section class="project-detail-hero">
+  <div class="project-detail-title-group">
+    <h1 class="project-detail-title"{% if titleObj.pt != titleObj.en %} data-pt="{{ titleObj.pt }}" data-en="{{ titleObj.en }}"{% endif %}>{{ titleObj.pt }}</h1>
+    <span class="project-detail-subtitle">{{ project.subtitle }}</span>
+  </div>
+</section>
+
+<!-- Metadata -->
+<div class="project-detail-meta">
+  <div class="meta-item">
+    <span class="meta-label">Category:</span>
+    <span class="meta-value" data-pt="{{ project.categoryMeta.pt }}" data-en="{{ project.categoryMeta.en }}">{{ project.categoryMeta.pt }}</span>
+  </div>
+  <div class="meta-item">
+    <span class="meta-label">Service:</span>
+    <span class="meta-value"{% if project.service.pt != project.service.en %} data-pt="{{ project.service.pt }}" data-en="{{ project.service.en }}"{% endif %}>{{ project.service.pt }}</span>
+  </div>
+  <div class="meta-item">
+    <span class="meta-label">Year:</span>
+    <span class="meta-value">{{ project.year }}</span>
+  </div>
+</div>
+
+<!-- Gallery -->
+<section class="project-detail-gallery">
+  {% for block in project.images | galleryBlocks %}
+  {% if block.type == "full" %}
+  <div class="gallery-full">
+    <img src="../{{ block.images[0].src }}" alt="{{ block.images[0].alt }}">
+  </div>
+  {% else %}
+  <div class="gallery-duo">
+    {% for img in block.images %}
+    <div class="gallery-duo-item">
+      <img src="../{{ img.src }}" alt="{{ img.alt }}">
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% endfor %}
+</section>
+
+<!-- Info Section -->
+<section class="project-detail-info">
+  {% for row in project.infoRows %}
+  <div class="info-row">
+    {% if row.label.pt == "Info" %}
+    <span class="info-label">{{ row.label.pt }}</span>
+    <p class="info-value" data-pt="{{ row.value.pt }}" data-en="{{ row.value.en }}">{{ row.value.pt }}</p>
+    {% else %}
+    <span class="info-label"{% if row.label.pt != row.label.en %} data-pt="{{ row.label.pt }}" data-en="{{ row.label.en }}"{% endif %}>{{ row.label.pt }}</span>
+    {% if row.value.pt %}
+    <span class="info-value" data-pt="{{ row.value.pt }}" data-en="{{ row.value.en }}">{{ row.value.pt }}</span>
+    {% else %}
+    <span class="info-value">{{ row.value | renderValue | safe }}</span>
+    {% endif %}
+    {% endif %}
+  </div>
+  {% endfor %}
+</section>
+
+<!-- Project Navigation -->
+<section class="project-nav">
+  <a href="{{ project.prevHref }}" class="project-nav-link">PREVIOUS</a>
+  <a href="{{ project.nextHref }}" class="project-nav-link">NEXT</a>
+</section>
