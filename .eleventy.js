@@ -9,11 +9,15 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("json", (value) => JSON.stringify(value));
 
   // No-op na build real do Eleventy - existe só pra marcar, nos templates,
-  // quais valores são editáveis. O painel Editoria roda esses MESMOS
-  // templates com uma implementação diferente desse filtro (que envolve o
-  // valor num <span data-editoria-path="...">) pra saber o que destacar na
-  // prévia ao vivo. Aqui na build de produção não altera o HTML em nada.
-  eleventyConfig.addFilter("editable", (value) => value);
+  // qual elemento corresponde a qual campo editável. Uso: <span class="x"
+  // {{ "caminho.do.campo" | editablePath }}>. O painel Editoria roda esses
+  // MESMOS templates com uma implementação diferente desse filtro (que
+  // emite o atributo data-editoria-path="...") pra saber o que destacar na
+  // prévia ao vivo. Vira atributo (não conteúdo) de propósito: o script.js
+  // do site substitui o innerHTML de elementos com data-pt/data-en ao
+  // trocar de idioma, o que apagaria qualquer marcação colocada dentro do
+  // conteúdo - como atributo, sobrevive a isso.
+  eleventyConfig.addFilter("editablePath", () => "");
 
   // Linhas de crédito (infoRows) podem ter valor em string única ou array de linhas (equivalente ao <br> do HTML original).
   eleventyConfig.addFilter("renderValue", (value) => {
