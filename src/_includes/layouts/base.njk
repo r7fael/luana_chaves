@@ -33,9 +33,9 @@
 
   <!-- Menu Overlay -->
   <nav class="menu-overlay">
-    <a href="{{ root }}index.html" class="menu-link">Home</a>
-    <a href="{{ root }}projetos.html" class="menu-link" data-pt="Projetos" data-en="Projects">Projetos</a>
-    <a href="{{ root }}contato.html" class="menu-link" data-pt="Contato" data-en="Contact">Contato</a>
+    {% for item in menu %}
+    <a href="{{ root }}{{ item.href }}" class="menu-link"{% if item.label.pt != item.label.en %} data-pt="{{ item.label.pt }}" data-en="{{ item.label.en }}"{% endif %}>{{ item.label.pt | editable("menu." ~ loop.index0 ~ ".label") }}</a>
+    {% endfor %}
   </nav>
 
   {{ content | safe }}
@@ -46,9 +46,9 @@
       <div class="footer-left">
         <h2 class="footer-name">Luana Chaves</h2>
         <nav class="footer-nav">
-          <a href="{{ root }}index.html">HOME</a>
-          <a href="{{ root }}projetos.html" data-pt="PROJETOS" data-en="PROJECTS">PROJETOS</a>
-          <a href="{{ root }}contato.html" data-pt="CONTATO" data-en="CONTACT">CONTATO</a>
+          {% for item in menu %}
+          <a href="{{ root }}{{ item.href }}"{% if item.label.pt != item.label.en %} data-pt="{{ item.label.pt }}" data-en="{{ item.label.en }}"{% endif %}>{{ item.label.pt }}</a>
+          {% endfor %}
         </nav>
       </div>
     </div>

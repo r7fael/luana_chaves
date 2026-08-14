@@ -8,6 +8,13 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("json", (value) => JSON.stringify(value));
 
+  // No-op na build real do Eleventy - existe só pra marcar, nos templates,
+  // quais valores são editáveis. O painel Editoria roda esses MESMOS
+  // templates com uma implementação diferente desse filtro (que envolve o
+  // valor num <span data-editoria-path="...">) pra saber o que destacar na
+  // prévia ao vivo. Aqui na build de produção não altera o HTML em nada.
+  eleventyConfig.addFilter("editable", (value) => value);
+
   // Linhas de crédito (infoRows) podem ter valor em string única ou array de linhas (equivalente ao <br> do HTML original).
   eleventyConfig.addFilter("renderValue", (value) => {
     if (Array.isArray(value)) return value.join(" <br>\n");

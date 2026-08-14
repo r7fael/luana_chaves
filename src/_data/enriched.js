@@ -9,6 +9,11 @@ function computeCategories() {
   const allProjects = [];
 
   siteConfig.collections.forEach((col) => {
+    // Coleções "menu" (e outros tipos futuros fora do padrão categoria/grupo/
+    // projeto) têm formato próprio e não entram na navegação em cadeia -
+    // são carregadas separadamente (ver src/_data/menu.js).
+    if (col.type) return;
+
     const groups = require(`./site/${col.file}`);
 
     groups.forEach((group) => {

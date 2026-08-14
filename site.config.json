@@ -5,6 +5,17 @@
   "media": { "mode": "ftp", "basePath": "imgs" },
   "collections": [
     {
+      "id": "menu",
+      "type": "menu",
+      "label": { "pt": "MENU", "en": "MENU" },
+      "titleLabel": "Menu",
+      "file": "menu.json",
+      "fields": [
+        { "key": "label", "label": "Texto do link", "type": "bilingual-text" },
+        { "key": "href", "label": "Destino", "type": "text" }
+      ]
+    },
+    {
       "id": "direcao-criativa",
       "label": { "pt": "DIREÇÃO CRIATIVA", "en": "CREATIVE DIRECTION" },
       "titleLabel": "Direção Criativa",

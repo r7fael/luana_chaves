@@ -1,0 +1,5 @@
+[
+  { "slug": "home", "label": { "pt": "Home", "en": "Home" }, "href": "index.html" },
+  { "slug": "projetos", "label": { "pt": "Projetos", "en": "Projects" }, "href": "projetos.html" },
+  { "slug": "contato", "label": { "pt": "Contato", "en": "Contact" }, "href": "contato.html" }
+]
