@@ -34,7 +34,7 @@
   <!-- Menu Overlay -->
   <nav class="menu-overlay">
     {% for item in menu %}
-    <a href="{{ root }}{{ item.href }}" class="menu-link"{{ ("menu." ~ loop.index0 ~ ".label") | editablePath }}{% if item.label.pt != item.label.en %} data-pt="{{ item.label.pt }}" data-en="{{ item.label.en }}"{% endif %}>{{ item.label.pt }}</a>
+    <a href="{{ root }}{{ item.href }}" class="menu-link"{{ ("menu#" ~ loop.index0) | editablePath }}{% if item.label.pt != item.label.en %} data-pt="{{ item.label.pt }}" data-en="{{ item.label.en }}"{% endif %}>{{ item.label.pt }}</a>
     {% endfor %}
   </nav>
 
